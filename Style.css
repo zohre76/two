@@ -1,0 +1,66 @@
+body {
+  /* for not sspace empty   */
+  margin: 0;
+  padding: 0;
+  /* include the padding and border in element width and height */
+  box-sizing: border-box;
+}
+.container {
+  /* set all 100% of the viewport height */
+  min-height: 100vh;
+  /* for flex container to use flexbox */
+  display: flex;
+  /* center item in box */
+  justify-content: center;
+  align-items: center;
+}
+/* property of box  */
+.box {
+  width: 20%;
+  /* for line around elment */
+  border: 1px solid green;
+  /* rounding in box */
+  border-radius: 10px;
+  /* color of box */
+  background-color: #cdebc2;
+  /* create space around element content  bottom (left,right) top */
+  padding: 50px 2% 1px;
+}
+
+input {
+  /* display elment as block element like p */
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  height: 35px;
+  margin: 0 0 5px;
+  border: 1px black solid;
+}
+
+label {
+  /* to display list item horizontally */
+  display: inline-block;
+  font-size: 13px;
+  margin: 0px 7px 3px 0px;
+}
+/* property of button */
+button {
+  display: block;
+  background-color: #6aa84f;
+  color: white;
+  margin-top: 20px;
+  border: 1px black solid;
+  border-radius: 5px;
+  width: 100%;
+  height: 27px;
+}
+/* link for login and register */
+a {
+  display: block;
+  /* center item */
+  text-align: center;
+  margin: 10px auto;
+  font-size: 18px;
+  /* not border bottom */
+  text-decoration: none;
+}
